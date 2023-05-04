@@ -17,3 +17,7 @@ so you will not have to decide how to order multiple strings of the same length.
 
 // Solution
 
+function sortByLength (array) {
+  return array.sort((a, b) => a.length - b.length);
+}
+
